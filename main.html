@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessible Portfolio</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Header with a Heading -->
+  <header>
+    <h1 role="heading">My Accessible Portfolio</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#about">About Me</a></li>
+      <li role="listitem"><a href="#projects">Projects</a></li>
+      <li role="listitem"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 role="heading">About Me</h2>
+    <img src="profile.jpg" alt="A photo of the portfolio owner, smiling outdoors" role="img">
+    <p>This is a brief description of myself, highlighting my background and skills.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 role="heading">My Projects</h2>
+    <ul role="list">
+      <li role="listitem">Project 1: Web Development</li>
+      <li role="listitem">Project 2: Mobile App Design</li>
+      <li role="listitem">Project 3: UX Research</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 role="heading">Contact Me</h2>
+    <p>Feel free to get in touch with me via email or LinkedIn.</p>
+  </section>
 
 </body>
-
 </html>
